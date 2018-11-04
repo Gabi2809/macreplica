@@ -1,0 +1,16 @@
+extends ../_component/layout/template
+
+block cool-config
+    -
+        var myTitle = 'Learn CSS';
+        var myDescription = 'this is a html replica of w3schools';
+        var landingPage = 'CSS';
+        var activeLink =' ';
+block awesome-content
+    h1=myTitle
+    p=myDescription    
+    p Page under construction #[a(href="/html") See something awesome!]
+    h2 CSS
+    p Page under construction #[a(href="/html") Click here!]
+    h2 JavaScript
+    p Page under construction #[a(href="/html") Discover the way up!]
